@@ -1,0 +1,20 @@
+{:layout "split_3x5_2"
+
+ :config {:style :default
+          :grid-size-horz 60
+          :grid-size-vert 50
+          :key-padding 3
+          :border-radius 6}
+
+ :layers [{:name "Colemak-DH base"
+           :keymap {:left ["Q" "W" "F" "P" "B"
+                           "A" "R" "S" "T" "G"
+                           "Z" "X" "C" "D" "V"]
+
+                    :left-thumbs ["Tab" "Space"]
+
+                    :right ["J" "L" "U" "Y" "Del"
+                            "M" "N" "E" "I" "O"
+                            "K" "H" "," "." "/"]
+
+                    :right-thumbs ["Bspc" "Esc"]}}]}

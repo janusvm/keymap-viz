@@ -1,0 +1,23 @@
+{:name "Split 3x5+2 layout"
+
+ :blocks {:left {:name "left"
+                 :pos [0 0]
+                 :keys (for [y (range 3)
+                             x (range 5)]
+                         {:pos [x y] :size 1 :type :rect})}
+
+          :left-thumbs {:name "left-thumbs"
+                        :pos [3 3]
+                        :keys [{:pos [0 0] :size 1 :type :rect}
+                               {:pos [1 0] :size 1 :type :rect}]}
+
+          :right {:name "right"
+                  :pos [6 0]
+                  :keys (for [y (range 3)
+                              x (range 5)]
+                          {:pos [x y] :size 1 :type :rect})}
+
+          :right-thumbs {:name "right-thumbs"
+                         :pos [6 3]
+                         :keys [{:pos [0 0] :size 1 :type :rect}
+                                {:pos [1 0] :size 1 :type :rect}]}}}

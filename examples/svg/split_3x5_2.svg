@@ -1,0 +1,21 @@
+<svg height="200" viewBox="0 0 660 200" width="660" xmlns="http://www.w3.org/2000/svg"><style>svg {
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    font-size: 14px;
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+    fill: #24292e;
+}
+
+text {
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+rect {
+    fill: #f6f8fa;
+}
+
+.held {
+    fill: #fdd;
+}
+</style><rect height="44" rx="6" ry="6" width="54" x="3" y="3"></rect><text x="30.0" y="25.0">Q</text><rect height="44" rx="6" ry="6" width="54" x="63" y="3"></rect><text x="90.0" y="25.0">W</text><rect height="44" rx="6" ry="6" width="54" x="123" y="3"></rect><text x="150.0" y="25.0">F</text><rect height="44" rx="6" ry="6" width="54" x="183" y="3"></rect><text x="210.0" y="25.0">P</text><rect height="44" rx="6" ry="6" width="54" x="243" y="3"></rect><text x="270.0" y="25.0">B</text><rect height="44" rx="6" ry="6" width="54" x="3" y="53"></rect><text x="30.0" y="75.0">A</text><rect height="44" rx="6" ry="6" width="54" x="63" y="53"></rect><text x="90.0" y="75.0">R</text><rect height="44" rx="6" ry="6" width="54" x="123" y="53"></rect><text x="150.0" y="75.0">S</text><rect height="44" rx="6" ry="6" width="54" x="183" y="53"></rect><text x="210.0" y="75.0">T</text><rect height="44" rx="6" ry="6" width="54" x="243" y="53"></rect><text x="270.0" y="75.0">G</text><rect height="44" rx="6" ry="6" width="54" x="3" y="103"></rect><text x="30.0" y="125.0">Z</text><rect height="44" rx="6" ry="6" width="54" x="63" y="103"></rect><text x="90.0" y="125.0">X</text><rect height="44" rx="6" ry="6" width="54" x="123" y="103"></rect><text x="150.0" y="125.0">C</text><rect height="44" rx="6" ry="6" width="54" x="183" y="103"></rect><text x="210.0" y="125.0">D</text><rect height="44" rx="6" ry="6" width="54" x="243" y="103"></rect><text x="270.0" y="125.0">V</text><rect height="44" rx="6" ry="6" width="54" x="183" y="153"></rect><text x="210.0" y="175.0">Tab</text><rect height="44" rx="6" ry="6" width="54" x="243" y="153"></rect><text x="270.0" y="175.0">Space</text><rect height="44" rx="6" ry="6" width="54" x="363" y="3"></rect><text x="390.0" y="25.0">J</text><rect height="44" rx="6" ry="6" width="54" x="423" y="3"></rect><text x="450.0" y="25.0">L</text><rect height="44" rx="6" ry="6" width="54" x="483" y="3"></rect><text x="510.0" y="25.0">U</text><rect height="44" rx="6" ry="6" width="54" x="543" y="3"></rect><text x="570.0" y="25.0">Y</text><rect height="44" rx="6" ry="6" width="54" x="603" y="3"></rect><text x="630.0" y="25.0">Del</text><rect height="44" rx="6" ry="6" width="54" x="363" y="53"></rect><text x="390.0" y="75.0">M</text><rect height="44" rx="6" ry="6" width="54" x="423" y="53"></rect><text x="450.0" y="75.0">N</text><rect height="44" rx="6" ry="6" width="54" x="483" y="53"></rect><text x="510.0" y="75.0">E</text><rect height="44" rx="6" ry="6" width="54" x="543" y="53"></rect><text x="570.0" y="75.0">I</text><rect height="44" rx="6" ry="6" width="54" x="603" y="53"></rect><text x="630.0" y="75.0">O</text><rect height="44" rx="6" ry="6" width="54" x="363" y="103"></rect><text x="390.0" y="125.0">K</text><rect height="44" rx="6" ry="6" width="54" x="423" y="103"></rect><text x="450.0" y="125.0">H</text><rect height="44" rx="6" ry="6" width="54" x="483" y="103"></rect><text x="510.0" y="125.0">,</text><rect height="44" rx="6" ry="6" width="54" x="543" y="103"></rect><text x="570.0" y="125.0">.</text><rect height="44" rx="6" ry="6" width="54" x="603" y="103"></rect><text x="630.0" y="125.0">/</text><rect height="44" rx="6" ry="6" width="54" x="363" y="153"></rect><text x="390.0" y="175.0">Bspc</text><rect height="44" rx="6" ry="6" width="54" x="423" y="153"></rect><text x="450.0" y="175.0">Esc</text></svg>
