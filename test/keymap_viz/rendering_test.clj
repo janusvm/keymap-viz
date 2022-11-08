@@ -5,14 +5,15 @@
    [keymap-viz.rendering :as subject]
    [mount.core :as m]))
 
-(def ^:private mock-config
+(def ^:private test-config
   {:key-padding 3.
    :border-radius 5.
+   :layer-margin 0.
    :grid-size-horz 60.
    :grid-size-vert 55.})
 
 (defn- start-states [f]
-  (m/start-with {#'conf/config mock-config})
+  (m/start-with {#'conf/config test-config})
   (f)
   (m/stop))
 
