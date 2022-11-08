@@ -15,5 +15,17 @@
   :test-paths ["test"]
 
   :main ^:skip-aot keymap-viz.core
-  :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}})
+  :target-path "target/%s/"
+
+  :profiles
+  {:uberjar {:aot :all
+             :omit-source true
+             :uberjar-name "keymap-viz.jar"}
+
+   :dev [:project/dev]
+
+   :project/dev {:source-paths ["env/dev/src"
+                                "env/test/src"]
+                 :resource-paths ["env/dev/resources"
+                                  "env/test/resources"]
+                 :repl-options {:init-ns user}}})
