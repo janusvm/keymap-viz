@@ -5,11 +5,12 @@
    [mount.core :as m]))
 
 (def ^:private default-config
-  {:style :default
+  {:border-radius 6
    :grid-size-horz 60
    :grid-size-vert 50
    :key-padding 3
-   :border-radius 6})
+   :layer-margin 30
+   :style :default})
 
 (m/defstate default-style
   :start (->> (io/resource "styles/default.css")
@@ -29,4 +30,5 @@
                (eval)))
 
 (m/defstate config
-  :start (get keymap :config default-config))
+  :start (merge default-config
+                (:config keymap)))
