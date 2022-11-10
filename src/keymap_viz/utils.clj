@@ -31,3 +31,8 @@
         xmax (first (apply max-key first key-corners))
         ymax (second (apply max-key second key-corners))]
     (mapv #(+ layer-margin %) [xmax ymax])))
+
+(defn calc-keymap-size [keymap layout]
+  (let [n-layers (count (:layers keymap))
+        [x y] (calc-board-size layout)]
+    [x (* y n-layers)]))

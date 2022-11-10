@@ -44,8 +44,16 @@
 (deftest calc-board-size-test
   (testing "Calculating board size"
     (testing "of 3x3 macropad"
-      (let [layout (tu/load-edn-file "3x3.edn")]
+      (let [layout (tu/load-edn-file "layouts/3x3.edn")]
         (is (= [180. 165.] (subject/calc-board-size layout)))))
     (testing "of 2x2 split"
-      (let [layout (tu/load-edn-file "split_2x2.edn")]
+      (let [layout (tu/load-edn-file "layouts/split_2x2.edn")]
         (is (= [300. 110.] (subject/calc-board-size layout)))))))
+
+(deftest calc-keymap-size-test
+  (testing "Calculating total image size"
+    (testing "of 3x3 macropad"
+      (testing "with 2 layers"
+        (let [keymap (tu/load-edn-file "keymaps/3x3.edn")
+              layout (tu/load-edn-file "layouts/3x3.edn")]
+          (is (= [180. 330.] (subject/calc-keymap-size keymap layout))))))))
