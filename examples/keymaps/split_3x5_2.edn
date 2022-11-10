@@ -7,14 +7,40 @@
           :border-radius 6}
 
  :layers [{:name "Colemak-DH base"
-           :keymap {:left ["Q" "W" "F" "P" "B"
-                           "A" "R" "S" "T" "G"
-                           "Z" "X" "C" "D" "V"]
+           :keymap {:left [\Q \W \F \P \B
+                           \A \R \S \T \G
+                           \Z \X \C \D \V]
 
                     :left-thumbs ["Tab" "Space"]
 
-                    :right ["J" "L" "U" "Y" "Del"
-                            "M" "N" "E" "I" "O"
-                            "K" "H" "," "." "/"]
+                    :right [\J \L \U \Y "Del"
+                            \M \N \E \I \O
+                            \K \H \, \. \/]
 
-                    :right-thumbs ["Bspc" "Esc"]}}]}
+                    :right-thumbs ["Bspc" "Esc"]}}
+
+          {:name "Lower"
+           :keymap {:left [1 2 3 4 5
+                           6 7 8 9 0
+                           "C-z" "C-x" "C-c" "C-v" "C-s"]
+
+                    :left-thumbs [nil nil]
+
+                    :right ["PgUp" "Home" "Up" "End" nil
+                            "PgDn" "Left" "Down" "Right" nil
+                            nil \Æ \Ø \Å nil]
+
+                    :right-thumbs ["Enter" "CapsWrd"]}}
+
+          {:name "Raise"
+           :keymap {:left [\! \@ \{ \} \%
+                           \^ \$ \[ \] \#
+                           \\ \| \` \~ \?]
+
+                    :left-thumbs [nil nil]
+
+                    :right [\& \< \> \" \=
+                            \* \( \) \' \+
+                            \/ \_ \; \: \-]
+
+                    :right-thumbs [nil "RAlt"]}}]}
