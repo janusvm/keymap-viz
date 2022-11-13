@@ -22,7 +22,7 @@
 (deftest make-key-test
   (testing "should merge options from keymap and layout"
     (testing "when key is given as a string"
-      (is (= {:type :rect :size 1 :pos [6 2] :tap "H" :hold nil}
+      (is (= {:type :rect :size 1 :pos [6 2] :tap "H" :hold ""}
              (subject/make-key "H" {:type :rect :size 1 :pos [1 2]} [5 0]))))
     (testing "when key is given as a map"
       (is (= {:type :rect :size 1 :pos [3 1] :tap "T" :hold "Shift"}
@@ -32,4 +32,4 @@
   (testing "should generate a Hiccup-ready data structure"
     (is (= [[:rect {:x 183. :y 58. :rx 5. :ry 5. :width 54. :height 49.}]
             [:text {:x 210. :y 82.5} "T"]]
-           (subject/render-key {:type :rect :size 1 :pos [3 1] :tap "T" :hold "Shift"})))))
+           (subject/render-key {:type :rect :size 1 :pos [3 1] :tap "T" :hold "Shift"} 0)))))
