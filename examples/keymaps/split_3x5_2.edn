@@ -30,7 +30,7 @@
                             "PgDn" "Left" "Down" "Right" nil
                             nil \Æ \Ø \Å nil]
 
-                    :right-thumbs ["Enter" "CapsWrd"]}}
+                    :right-thumbs ["Enter" "Caps Word"]}}
 
           {:name "Raise"
            :keymap {:left [\! \@ \{ \} \%
@@ -43,4 +43,69 @@
                             \* \( \) \' \+
                             \/ \_ \; \: \-]
 
-                    :right-thumbs [nil "RAlt"]}}]}
+                    :right-thumbs [nil "RAlt"]}}
+
+          {:name "Adjust"
+           :keymap {:left ["Reset" nil "Bri -" "Bri +" "Toggle RBG"
+                           nil "Mute" "Vol Down" "Vol Up" "Toggle Audio"
+                           nil nil nil nil nil]
+
+                    :left-thumbs [nil nil]
+
+                    :right ["UC WinC" "Caps Lock" "Scroll Lock" "Num Lock" "Insert"
+                            "UC Mac" "Back" "Forward" "WWW Home" "WWW Refresh"
+                            "UC Linux" "Prev" "Play" "Stop" "Next"]
+
+                    :right-thumbs [nil nil]}}
+
+          {:name "Fn"
+           :keymap {:left ["F1" "F2" "F3" "F4" "F5"
+                           "F6" "F7" "F8" "F9" "F10"
+                           "F11" "F12" "Menu" "Print Screen" "Caps Word"]
+
+                    :left-thumbs [nil nil]
+
+                    :right ["," "7" "8" "9" "."
+                            "*" "4" "5" "6" "+"
+                            "/" "1" "2" "3" "-"]
+
+                    :right-thumbs ["Enter" "0"]}}
+
+          {:name "Accents"
+           :keymap {:left ["à" "ä" "â" "ã" "á"
+                           "è" "ë" "ê" "ẽ" "é"
+                           "ì" "ï" "î" "ĩ" "í"]
+
+                    :left-thumbs ["Symbols" "Emoji"]
+
+                    :right ["ò" "ö" "ô" "õ" "ó"
+                            "ù" "ü" "û" "ũ" "ú"
+                            "ỳ" "ÿ" "ŷ" "ỹ" "ý"]
+
+                    :right-thumbs [nil nil]}}
+
+          {:name "Symbols"
+           :keymap {:left ["½" "²" "∫" "°" "•"
+                           "∞" "®" "√" "™" "∇"
+                           "█" "▒" "©" "∂" "∪"]
+
+                    :left-thumbs ["∈"  "Exit Layer"]
+
+                    :right ["€" "£" "↑" "¥" "≠"
+                            "×" "←" "↓" "→" "±"
+                            "∩" "¬" "∅" "–" "—"]
+
+                    :right-thumbs ["✓" "✗"]}}
+
+          {:name "Emoji"
+           :keymap {:left ["😏" "😳" "😩" "😉" "🙄"
+                           "😅" "😍" "😭" "😭" "😘"
+                           "😂" "🤪" "😔" "😜" "😒"]
+
+                    :left-thumbs ["🅱"  "Exit Layer"]
+
+                    :right ["🤔" "🤫" "👌" "👀" "✨"
+                            "🙃" "😬" "👏" "🧠" "💦"
+                            "💩" "😤" "🙏" "🔥" "💕"]
+
+                    :right-thumbs ["✅" "⛔"]}}]}
