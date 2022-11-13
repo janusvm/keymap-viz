@@ -1,0 +1,10 @@
+{:blocks {:left {:pos [0 0]
+                 :keys [{:pos [0 0] :size 1 :type :rect}
+                        {:pos [0 1] :size 1 :type :rect}
+                        {:pos [1 0] :size 1 :type :rect}
+                        {:pos [1 1] :size 1 :type :rect}]}
+          :right {:pos [3 0]
+                  :keys [{:pos [0 0] :size 1 :type :rect}
+                         {:pos [0 1] :size 1 :type :rect}
+                         {:pos [1 0] :size 1 :type :rect}
+                         {:pos [1 1] :size 1 :type :rect}]}}}
